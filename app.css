@@ -1,0 +1,46 @@
+::selection { background: #DFD9D4; color: #545454; }
+::-moz-selection { background: #DFD9D4; color: #545454; }
+
+
+body { min-height: 100vh; font-family: "azo-sans-web"; }
+h1, h2, h3, h4 { font-weight: 700; text-transform: uppercase; }
+
+body main { background: url(moc-bg-02.jpg) no-repeat; background-position: center top; background-size: cover; border: none; padding: 1.8rem 0 }
+    main header, .article-extra h4 { background: rgba(35,31,32,.8); text-align: center; margin-bottom: 1.8rem; color: #dbd9d6; }
+        main header h1 { text-transform: none; text-shadow: 0px 2px #232222; line-height: 1.3; font-size: 2rem;}
+            main header h1 span { font-weight: 300; font-size: 60%; vertical-align: 15%; }
+            main header h1 strong { text-transform: uppercase; }
+
+.card, article { border: none; background: #bcbec0; }
+.card, #video iframe, main, article { -webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.4); -moz-box-shadow: 0px 6px 15px 0px rgba(0,0,0,0.4); box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.4); }
+.article-extra { position: relative; }
+.article-extra img { display: block; max-width: 100%; }
+.article-extra h4 { text-align: left;  position: absolute; top: 10%; left: 0; line-height: 2; padding: 0 .2rem; font-size: 1.2rem;}
+article p { padding: .8rem; margin-top: 0; border-top: .3rem solid #4e4084; }
+.btn-primary { background: #4e4084; border: none; }
+    .btn-primary:hover, .btn-primary:active { background: #645d9c; }
+.btn-primary.focus, .btn-primary:focus { box-shadow: 0 0 0 3px rgba(33,22,81,.8); }
+body footer { background: #231f20; color: #dbd9d6; }
+footer .nav-link, footer a { color: #dbd9d6; font-weight: bold; }
+footer a:hover, footer a:active, footer .nav-link:hover, footer .nav-link:active { color: #645d9c; text-decoration: none;}
+
+a::after {
+    content: '\25b6';
+    font-size: 60%;
+    padding-left: .3em;
+    vertical-align: 15%; 
+    
+}
+
+@media (max-width: 575px) {
+    html { font-size: .8rem; }
+}
+
+@media (max-width: 767px) { 
+    main header h1 { font-size: 1.5em; }
+    #video, footer span { margin-bottom: 1rem; }
+}
+
+@media (max-width: 991px) {  }
+
+@media (max-width: 1199px) {  }
